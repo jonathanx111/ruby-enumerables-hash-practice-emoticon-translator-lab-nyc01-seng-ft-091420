@@ -25,7 +25,7 @@ def get_english_meaning(file, emoticon)
     if new[k].include?(emoticon)
       return k 
     end
-  binding.pry
+  # binding.pry
   end
 end
 
