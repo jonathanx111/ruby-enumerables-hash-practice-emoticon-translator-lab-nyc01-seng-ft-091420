@@ -23,10 +23,9 @@ def get_english_meaning(file, emoticon)
   new = load_library(file)
   new.each do |k, v|
     v.each do |inner|
-      
-    end
-    if new[k].include?(emoticon)
-      return k 
+      if v[:english] == emoticon
+        return k 
+      end
     end
   binding.pry
   end
