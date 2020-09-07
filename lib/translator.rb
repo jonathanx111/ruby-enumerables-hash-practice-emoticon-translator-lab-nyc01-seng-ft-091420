@@ -26,8 +26,8 @@ def get_english_meaning(file, emoticon)
       if v[:english] == emoticon
         return k
       end
+      binding.pry
     end
-    binding.pry
   end
 end
 
