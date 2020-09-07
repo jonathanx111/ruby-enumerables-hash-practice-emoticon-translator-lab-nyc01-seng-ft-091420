@@ -27,7 +27,7 @@ def get_english_meaning(file, emoticon)
         return k 
       end
     end
-  binding.pry
+  # binding.pry
   end
 end
 
