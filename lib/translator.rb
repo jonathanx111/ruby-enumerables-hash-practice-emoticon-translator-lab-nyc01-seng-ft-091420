@@ -24,6 +24,7 @@ def get_english_meaning(file, emoticon)
   new.each do |k, v|
   binding.pry
   # code goes here
+  end
 end
 
 # structure:
