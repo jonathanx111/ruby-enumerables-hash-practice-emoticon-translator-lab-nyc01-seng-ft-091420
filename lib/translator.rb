@@ -25,10 +25,9 @@ def get_english_meaning(file, emoticon)
     v.each do |inner|
       if v[:japanese] == emoticon
         return k
-      else
-        puts "Sorry, that emoticon was not found"
       end
     end
+    puts "Sorry, that emoticon was not found"
   end
 end
 
