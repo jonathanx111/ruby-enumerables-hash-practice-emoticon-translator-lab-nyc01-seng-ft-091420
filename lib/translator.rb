@@ -22,8 +22,10 @@ end
 def get_english_meaning(file, emoticon)
   new = load_library(file)
   new.each do |k, v|
+    if new[k].include?(emoticon)
+      return k 
+    end
   binding.pry
-  # code goes here
   end
 end
 
