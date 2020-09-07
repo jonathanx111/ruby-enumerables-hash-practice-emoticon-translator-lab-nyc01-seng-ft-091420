@@ -28,6 +28,7 @@ def get_english_meaning(file, emoticon)
       end
     end
   end
+  binding.pry
 end
 
 # structure:
